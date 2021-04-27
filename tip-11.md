@@ -155,9 +155,13 @@ WTF why is this pair not on demex yet?
 
 Main market from switcheo exchange, I miss this market );
 
-### BTC/SWTH
+### BTCB/SWTH
 
-Either BTCB or WBTC both good desscions in my opinion. BTCB would be cheaper to trade.
+First BTC pair with SWTH. I suggest BTCB because it is cheaper and allows directly arbitrage with Pancake Swap.
+
+### BUSD/BTCB
+
+Aqviuliant to USDC/WBTC a new BSC pair with cheap deposit and withdrawal. This could help arbitraging the ERC pairs.
 
 ### BUSD/BNB
 
@@ -170,21 +174,32 @@ These new pool weights I suggest:
 
 | Market    | Cur. Pool weight | New Pool weight | Liquidity | 24H Volume |
 |-----------|------------------|-----------------|-----------|------------|
-| ETH/SWTH  | 4 - 20%          | 4 - 15.4%       | $5.45m    | $783,733   |
-| BTCB/WBTC | 1 - 5%           | 1 - 3.85%       | $2.70m    | $15,078    |
-| USDC/SWTH | 4 - 20%          | 3 - 11.53%      | $2.67m    | $338,594   |
-| USDC/WBTC | 2 - 10%          | 2 - 7.7%        | $2.10m    | $113,515   |
-| WBTC/ETH  | 1 - 5%           | 1 - 3.85%       | $2.10m    | $71,889    |
-| BUSD/USDC | 1 - 5%           | 1 - 3.85%       | $1.99m    | $19,665    |
-| USDC/ETH  | 2 - 10%          | 2 - 7.7%        | $1.65m    | $343,956   |
-| nNEO/ETH  | 1 - 5%           | 1 - 3.85%       | $1.22m    | $62,582    |
-| BUSD/nNEO | 1 - 5%           | 1 - 3.85%       | $839,129  | $99,801    |
-| BUSD/SWTH | 2 - 10%          | 2 - 7.7%        | $623,983  | $99,046    |
-| BUSD/CEL  | 1 - 5%           | 1 - 3.85%       | $552,435  | $14,187    |
-| nNEO/USDC | 0 - 0%           | 1 - 3.85%       | $59,160   | $37,371    |
+| ETH/SWTH  | 4 - 20%          | 15 - 15%        | $5.45m    | $783,733   |
+| BTCB/WBTC | 1 - 5%           | 2 - 2%          | $2.70m    | $15,078    |
+| USDC/SWTH | 4 - 20%          | 15 - 15%        | $2.67m    | $338,594   |
+| USDC/WBTC | 2 - 10%          | 7 - 7 %         | $2.10m    | $113,515   |
+| WBTC/ETH  | 1 - 5%           | 5 - 5%          | $2.10m    | $71,889    |
+| BUSD/USDC | 1 - 5%           | 3 - 3%          | $1.99m    | $109,226   |
+| USDC/ETH  | 2 - 10%          | 8 - 8%          | $1.65m    | $343,956   |
+| nNEO/ETH  | 1 - 5%           | 4 - 4%          | $1.22m    | $62,582    |
+| BUSD/nNEO | 1 - 5%           | 4 - 4%          | $839,129  | $99,801    |
+| BUSD/SWTH | 2 - 10%          | 8 - 8%          | $623,983  | $99,046    |
+| BUSD/CEL  | 1 - 5%           | 3 - 3%          | $552,435  | $14,187    |
+| nNEO/USDC | 0 - 0%           | 4 - 4%          | $59,160   | $37,371    |
 | USDC/NEX  | 0 - 0%           | 0 - 0%          | $10,886   | $28        |
-| USDC/CEL  | 0 - 0%           | 1 - 3.85%       | $4375     | $192       |
-| BNB/ETH   | 0 - 0%           | 2 - 7.7%        | $0        | $0         |
-| BUSD/BNB  | -                | 2 - 7.7%        | -         | -          |
-| CEL/ETH   | -                | 1 - 3.85%       | -         | -          |
-* Liquidity and 24 volmues taken from [Demex](https://app.dem.exchange/pools) - 04-27-2021 *
+| USDC/CEL  | 0 - 0%           | 3 - 3%          | $4375     | $192       |
+| BNB/ETH   | 0 - 0%           | 8 - 8%          | $0        | $0         |
+| BUSD/BNB  | -                | 8 - 8%          | -         | -          |
+| CEL/ETH   | -                | 3 - 3%          | -         | -          |
+| BTCB/SWTH | -                | 3 - 3%          | -         | -          |
+| BTCB/BUSD | -                | 4 - 4%          |           |            |
+| nNEO/SWTH | -                | 3 - 3%          | -         | -          |
+*Liquidity and 24 volmues taken from [Demex](https://app.dem.exchange/pools) - 04-27-2021
+
+I tried to not make too drastically changes, like removing all pool weight. I think the bigger pools are quite good and can share a bit of their weight. Some could now say that there are up to 25% decrease, yes but I used this decrease to boost mainly new SWTH markets or BSC markets. I also used 100 pool weights to adjust the weight at a 1% precision. 
+
+As you may noticed I did not propose new tokens, because I think we can still improve the liquidity a lot by improving the conditions.
+
+I hope for a civilizized discussion about my proposed changes, I am open for feedback and changes aswell.
+
+Devel
