@@ -168,7 +168,7 @@ Aqviuliant to USDC/WBTC a new BSC pair with cheap deposit and withdrawal. This c
 This market could bring good volume too since Binance burns BNB on a regular basis.
 
 ## Proposal
-The following markets should be listed: *ETH/CEL* and *BUSD/BNB*. Regarding *BTC/SWTH*, *BUSD/BTCB* and *NEO/SWTH* I would like to hear opinions.
+I propose to list the following markets: *ETH/CEL* and *BUSD/BNB*. Regarding *BTC/SWTH*, *BUSD/BTCB* and *NEO/SWTH* I would like to hear opinions.
 
 These new pool weights I suggest(if all markets get listed):
 
@@ -197,10 +197,10 @@ These new pool weights I suggest(if all markets get listed):
 
 *Liquidity and 24 volmues taken from [Demex](https://app.dem.exchange/pools) - 04-27-2021*
 
-I tried to not make too drastically changes, like removing all pool weight. I think the bigger pools are quite good and can share a bit of their weight. Some could now say that there are up to 25% decrease, yes but I used this decrease to boost mainly new SWTH markets or BSC markets. I also used 100 pool weights to adjust the weight at a 1% precision. 
+I tried to not make the changes too drastic, like removing all pool weight. I think the bigger pools are quite good and can share a bit of their weight. Some could now say that there are up to 25% decrease, yes but I used this decrease to boost mainly new SWTH markets or BSC markets. I also used 100 pool weights to adjust the weight at a 1% precision.
 
-As you may noticed I did not propose new tokens, because I think we can still improve the liquidity a lot by improving the conditions.
+As you may have noticed, I have  not proposed new tokens, because I think we can still improve the liquidity a lot by improving the conditions.
 
-I hope for a civilizized discussion about my proposed changes, I am open for feedback and changes aswell.
+I hope for a civilized discussion about my proposed changes, I am open for feedback and changes as well.
 
 Devel
