@@ -31,12 +31,38 @@ Data can be accessed [here](https://docs.google.com/spreadsheets/d/1SJUyJ-5Tx3GY
 |       nex1_usdc1 |     $15.295,22 |  0,04% | 0     | $1,372     | 0         | -100,00% |
 | NEW Partnerships | -              | -      | -     | -          | 5         | -        |
 |                  | $37.638.287,28 |        | 100   |            | 100       |          |
+
+## Explanation
+
+### eth1_usdc1
+As second most important trading pair a boost of 8% seems quite less. A closer look on the pool shows that this market has a really low liquidity compared to the total volume.
+
+Boosting this market more may lead to an signicant increase in daily volume. Especially after EIP-1559 has passed, which causes a burn on each block.
+
+### swth_eth1
+A slight boost decrease since the pair is performing medium, and the boost can be used elsewhere.
+
+### busd1_usdc1
+A perfect example for a successful market. A close look at the Market Maker Share shows that this market is almost 100% made by user orders. Due to this fact and that the AMM does not work very well with a stable coin pair removing the boost should not have any impact on the liquidity.
+
+### nneo2_busd1 and nneo2_usdc1
+Focusing on one pair should make a big difference. Looking at the liquidity and the volume shows that nneo2_busd1 is the preferred market for NEO. The low liquidity but the really high volume shows that there is way more potential with more liquidity.
+
+### bnb1_busd1 and bnb1_eth1
+bnb1_busd1 performed pretty well. There is still potential upwards. Lowering bnb1_eth1 may shift liquidity to bnb1_busd1.
+
+### CEL pairs
+The CEL pairs perform less good. All three pairs combined achieved $2mio volume but consumed 7% of the total boost. 
+
+### wbtc1_btcb1
+Not much to say, this pair should be no longer boosted.
+
 # Market insights
 Each market has three diagrams. Each diagram uses the same time duration.
 
 Volume: Shows the daily aboslute volume over the period.
 
-Market Maker Shares - AMM vs. Users: Shows the daily relative maker matched volume per day over the period. This chart inidcates if an AMM is required for this market or not.
+Market Maker Shares - AMM vs. Users: Shows the daily relative maker matched volume over the period. This chart inidcates if an AMM is required for this market or not.
 
 Volume Share: Shows the relative total daily volume over the period.
 ## swth_usdc1
