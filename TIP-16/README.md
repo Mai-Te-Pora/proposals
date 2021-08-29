@@ -2,6 +2,9 @@
 
 
 # Intro
+All data from: `2021-05-13 19:00:27.51635566 UTC +0:00` to `2021-08-28 23:59:59.99999999 UTC +0:00`.
+
+Data can be accessed [here](https://docs.google.com/spreadsheets/d/1SJUyJ-5Tx3GYr-LTh_bThrS8L77fBU0shnOUHLQo07c/edit?usp=sharing).
 # TLDR
 # Demex Overview
 
