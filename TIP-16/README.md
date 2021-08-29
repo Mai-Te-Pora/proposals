@@ -5,8 +5,7 @@
 All data from: `2021-05-13 19:00:27.51635566 UTC +0:00` to `2021-08-28 23:59:59.99999999 UTC +0:00`.
 
 Data can be accessed [here](https://docs.google.com/spreadsheets/d/1SJUyJ-5Tx3GYr-LTh_bThrS8L77fBU0shnOUHLQo07c/edit?usp=sharing).
-# TLDR
-# Demex Overview
+# Proposal Overview + TLDR
 
 ![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Demex%20Spot%20Volume.png?raw=true)
 
@@ -32,72 +31,79 @@ Data can be accessed [here](https://docs.google.com/spreadsheets/d/1SJUyJ-5Tx3GY
 |       nex1_usdc1 |     $15.295,22 |  0,04% | 0     | $1,372     | 0         | -100,00% |
 | NEW Partnerships | -              | -      | -     | -          | 5         | -        |
 |                  | $37.638.287,28 |        | 100   |            | 100       |          |
+# Market insights
+Each market has three diagrams. Each diagram uses the same time duration.
 
+Volume: Shows the daily aboslute volume over the period.
+
+Market Maker Shares - AMM vs. Users: Shows the daily relative maker matched volume per day over the period. This chart inidcates if an AMM is required for this market or not.
+
+Volume Share: Shows the relative total daily volume over the period.
 ## swth_usdc1
 ![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20swth_usdc1.png?raw=true)
 ![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Market%20Maker%20Shares%20swth_usdc1.png?raw=true)
-![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20swth_usdc1.png?raw=true)
+![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20Share%20swth_usdc1.png?raw=true)
 ## eth1_usdc1
 ![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20eth1_usdc1.png?raw=true)
 ![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Market%20Maker%20Shares%20eth1_usdc1.png?raw=true)
-![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20eth1_usdc1.png?raw=true)
+![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20Share%20eth1_usdc1.png?raw=true)
 ## swth_busd1
 ![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20swth_busd1.png?raw=true)
 ![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Market%20Maker%20Shares%20swth_busd1.png?raw=true)
-![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20swth_busd1.png?raw=true)
+![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20Share%20swth_busd1.png?raw=true)
 ## swth_eth1
 ![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20swth_eth1.png?raw=true)
 ![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Market%20Maker%20Shares%20swth_eth1.png?raw=true)
-![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20swth_eth1.png?raw=true)
+![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20Share%20swth_eth1.png?raw=true)
 ## busd1_usdc1
 ![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20busd1_usdc1.png?raw=true)
 ![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Market%20Maker%20Shares%20busd1_usdc1.png?raw=true)
-![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20busd1_usdc1.png?raw=true)
+![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20Share%20busd1_usdc1.png?raw=true)
 ## nneo2_busd1
 ![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20nneo2_busd1.png?raw=true)
 ![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Market%20Maker%20Shares%20nneo2_busd1.png?raw=true)
-![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20nneo2_busd1.png?raw=true)
+![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20Share%20nneo2_busd1.png?raw=true)
 ## bnb1_busd1
 ![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20bnb1_busd1.png?raw=true)
 ![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Market%20Maker%20Shares%20bnb1_busd1.png?raw=true)
-![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20bnb1_busd1.png?raw=true)
+![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20Share%20bnb1_busd1.png?raw=true)
 ## wbtc1_usdc1
 ![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20wbtc1_usdc1.png?raw=true)
 ![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Market%20Maker%20Shares%20wbtc1_usdc1.png?raw=true)
-![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20wbtc1_usdc1.png?raw=true)
+![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20Share%20wbtc1_usdc1.png?raw=true)
 ## nneo2_eth1
 ![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20nneo2_eth1.png?raw=true)
 ![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Market%20Maker%20Shares%20nneo2_eth1.png?raw=true)
-![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20nneo2_eth1.png?raw=true)
+![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20Share%20nneo2_eth1.png?raw=true)
 ## eth1_wbtc1
 ![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20eth1_wbtc1.png?raw=true)
 ![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Market%20Maker%20Shares%20eth1_wbtc1.png?raw=true)
-![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20eth1_wbtc1.png?raw=true)
+![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20Share%20eth1_wbtc1.png?raw=true)
 ## nneo2_usdc1
 ![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20nneo2_usdc1.png?raw=true)
 ![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Market%20Maker%20Shares%20nneo2_usdc1.png?raw=true)
-![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20nneo2_usdc1.png?raw=true)
+![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20Share%20nneo2_usdc1.png?raw=true)
 ## bnb1_eth1
 ![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20bnb1_eth1.png?raw=true)
 ![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Market%20Maker%20Shares%20bnb1_eth1.png?raw=true)
-![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20bnb1_eth1.png?raw=true)
+![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20Share%20bnb1_eth1.png?raw=true)
 ## btcb1_busd1
 ![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20btcb1_busd1.png?raw=true)
 ![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Market%20Maker%20Shares%20btcb1_busd1.png?raw=true)
-![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20btcb1_busd1.png?raw=true)
+![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20Share%20btcb1_busd1.png?raw=true)
 ## cel1_busd1
 ![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20cel1_busd1.png?raw=true)
 ![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Market%20Maker%20Shares%20cel1_busd1.png?raw=true)
-![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20cel1_busd1.png?raw=true)
+![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20Share%20cel1_busd1.png?raw=true)
 ## cel1_usdc1
 ![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20cel1_usdc1.png?raw=true)
 ![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Market%20Maker%20Shares%20cel1_usdc1.png?raw=true)
-![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20cel1_usdc1.png?raw=true)
+![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20Share%20cel1_usdc1.png?raw=true)
 ## cel_eth
 ![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20cel_eth.png?raw=true)
 ![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Market%20Maker%20Shares%20cel_eth.png?raw=true)
-![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20cel_eth.png?raw=true)
+![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20Share%20cel_eth.png?raw=true)
 ## wbtc1_btcb1
 ![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20wbtc1_btcb1.png?raw=true)
 ![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Market%20Maker%20Shares%20wbtc1_btcb1.png?raw=true)
-![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20wbtc1_btcb1.png?raw=true)
+![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20Share%20wbtc1_btcb1.png?raw=true)
