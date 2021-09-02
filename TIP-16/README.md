@@ -40,6 +40,7 @@ I am open for feedback and suggestions.
 # Pool weight adjustment
 
 ![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Demex%20Spot%20Volume.png?raw=true)
+![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Liquidity%20Total.png?raw=true)
 
 The following table shows each market, and their total volume share. This indicates important markets for Demex. As a help the current boost and the liquidity is added to the table.
 An important ratio is the Volume per Liquidity, this indicates how much Volume($) was generated per Liquidity($). A high ratio may say that this market had could make way more volume if more liquidity would have been provided.
@@ -68,6 +69,15 @@ Low ratios may say that this market would have done almost the same volume with 
 | NEW Partnerships | -              | -      | -     | -          |                  | 5         | -        |
 |                  | $37.638.287,28 |        | 100   |            |                  | 100       |          |
 
+
+![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/AMM%20Volume%20_%20Liquidity%20Ratio.png?raw=true)
+This diagram shows the ratio between the effective AMM volume divided by the liquidity in USD. For example the pair swth_usdc1 has a ratio of 3.89%.
+The ratio tells how much volume was produced by the available liquidity over this time. The total AMM volume for swth_usdc1 (SUM Daily Volume) was $6.495.149,00, the total available liquidity(SUM Daily Liquidity Value) was $166.806.223,99.
+With other words the ratio is the daily average relative volume against the available liquidity. The higher the ratio the more volume the pair produced.
+![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/AMM%20Volume%20_%20Liquidity%20Ratio%20per%20Boost%20Weight.png?raw=true)
+This diagram takes the boost weight into consideration. It simply divides the ratio by the current pool weight. The result says how much volume was produced on daily average per boost weight.
+A high ratio indicates that this pair could be doing way more daily volume if there would be more liquidity in the pool.
+A low number on the other hand indicates that the pool is performing not that well. The reason has to be investigated.
 
 ## Explanation
 
