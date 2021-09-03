@@ -11,12 +11,18 @@ This proposal consists of three sub-proposals:
 
 They impact each other and therefore I put them into one thread but will be executed in several steps on chain, if passed.
 
+**The proposed adjustments are not meant to be fixed for the next 6 months. Reconsidering the pool weights should be done on a regular basis like each 3 months.**
+
 # Extension of the Liquidity provider rewards
 The obvious first, which is a requirement for the next proposed steps. In my opinion there us no way around this to keep the markets tradable.
 
 * Extend LP rewards to 30% of inflation value for 6 months, decreasing linearly each week to 20% for the last week.
 
 Maybe higher since the value of SWTH dropped a lot. 
+
+Right now $29.337,07 are distributed to all pools with a pool weight each week. With a fresh 30% this will increase to $41.863,07 at $0,01842251 per SWTH. 
+
+With extending the liquidity provider rewards the ARP for stakers is expected to be ~23.63%.
 
 # New Partnership Boost
 
@@ -48,52 +54,62 @@ Low ratios may say that this market would have done almost the same volume with 
 
 |           Market |         Volume |  Share | Boost |  Liquidity | Volume/Liquidity | New Boost |   Change |
 |-----------------:|---------------:|-------:|------:|-----------:|-----------------:|----------:|---------:|
-|       swth_usdc1 |  $7.004.444,98 | 18,61% | 18    | $1,280,000 | 5,47             |        16 |  -11,11% |
-|       eth1_usdc1 |  $6.853.856,31 | 18,21% | 8     | $423,190   | 16,20            |        17 |  112,50% |
-|       swth_busd1 |  $3.861.731,56 | 10,26% | 8     | $374,931   | 10,30            |         8 |    0,00% |
-|        swth_eth1 |  $2.952.430,43 |  7,84% | 18    | $846,238   | 3,49             |         0 | -100,00% |
-|      busd1_usdc1 |  $2.760.363,42 |  7,33% | 3     | $554,287   | 4,98             |         0 | -100,00% |
-|      nneo2_busd1 |  $2.409.928,00 |  6,40% | 4     | $160,433   | 15,02            |        11 |  175,00% |
-|       bnb1_busd1 |  $2.338.213,53 |  6,21% | 6     | $250,985   | 9,32             |         8 |   33,33% |
-|      wbtc1_usdc1 |  $1.834.235,20 |  4,87% | 7     | $527,708   | 3,48             |         6 |  -14,29% |
-|       nneo2_eth1 |  $1.450.589,42 |  3,85% | 4     | $259,523   | 5,89             |         4 |    0,00% |
-|       eth1_wbtc1 |  $1.139.439,94 |  3,03% | 4     | $629,206   | 1,81             |         4 |    0,00% |
-|      nneo2_usdc1 |    $968.479,93 |  2,57% | 2     | $72,303    | 13,39            |         5 |  150,00% |
-|        bnb1_eth1 |    $934.906,48 |  2,48% | 6     | $356,704   | 2,62             |         5 |  -16,67% |
-|      btcb1_busd1 |    $877.366,82 |  2,33% | 4     | $350,795   | 2,50             |         4 |    0,00% |
-|       cel1_busd1 |    $827.083,73 |  2,20% | 3     | $155,276   | 5,33             |         4 |   33,33% |
-|       cel1_usdc1 |    $552.667,65 |  1,47% | 2     | $127,110   | 4,34             |         0 | -100,00% |
-|          cel_eth |    $549.008,77 |  1,46% | 2     | $114,556   | 4,79             |         3 |   50,00% |
-|      wbtc1_btcb1 |    $242.671,12 |  0,64% | 1     | $285,182   | 0,85             |         0 | -100,00% |
-|       nex1_usdc1 |     $15.295,22 |  0,04% | 0     | $1,372     | 11,15            |         0 |    0,00% |
+|       swth_usdc1 |  $7.004.444,98 | 18,61% | 18    | $1,280,000 | 3,89%            |        16 |  -11,11% |
+|       eth1_usdc1 |  $6.853.856,31 | 18,21% | 8     | $423,190   | 12,94%           |        17 |  112,50% |
+|       swth_busd1 |  $3.861.731,56 | 10,26% | 8     | $374,931   | 8,12%            |         8 |    0,00% |
+|        swth_eth1 |  $2.952.430,43 |  7,84% | 18    | $846,238   | 3,23%            |         0 | -100,00% |
+|      busd1_usdc1 |  $2.760.363,42 |  7,33% | 3     | $554,287   | 1,12%            |         0 | -100,00% |
+|      nneo2_busd1 |  $2.409.928,00 |  6,40% | 4     | $160,433   | 10,04%           |        11 |  175,00% |
+|       bnb1_busd1 |  $2.338.213,53 |  6,21% | 6     | $250,985   | 10,45%           |         8 |   33,33% |
+|      wbtc1_usdc1 |  $1.834.235,20 |  4,87% | 7     | $527,708   | 3,84%            |         6 |  -14,29% |
+|       nneo2_eth1 |  $1.450.589,42 |  3,85% | 4     | $259,523   | 3,44%            |         4 |    0,00% |
+|       eth1_wbtc1 |  $1.139.439,94 |  3,03% | 4     | $629,206   | 2,13%            |         4 |    0,00% |
+|      nneo2_usdc1 |    $968.479,93 |  2,57% | 2     | $72,303    | 7,78%            |         5 |  150,00% |
+|        bnb1_eth1 |    $934.906,48 |  2,48% | 6     | $356,704   | 2,95%            |         5 |  -16,67% |
+|      btcb1_busd1 |    $877.366,82 |  2,33% | 4     | $350,795   | 3,79%            |         4 |    0,00% |
+|       cel1_busd1 |    $827.083,73 |  2,20% | 3     | $155,276   | 3,49%            |         4 |   33,33% |
+|       cel1_usdc1 |    $552.667,65 |  1,47% | 2     | $127,110   | 3,84%            |         0 | -100,00% |
+|          cel_eth |    $549.008,77 |  1,46% | 2     | $114,556   | 4,39%            |         3 |   50,00% |
+|      wbtc1_btcb1 |    $242.671,12 |  0,64% | 1     | $285,182   | 0,29%            |         0 | -100,00% |
+|       nex1_usdc1 |     $15.295,22 |  0,04% | 0     | $1,372     |                  |         0 |    0,00% |
 | NEW Partnerships | -              | -      | -     | -          |                  | 5         | -        |
 |                  | $37.638.287,28 |        | 100   |            |                  | 100       |          |
 
-
 ![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/AMM%20Volume%20_%20Liquidity%20Ratio.png?raw=true)
 This diagram shows the ratio between the effective AMM volume divided by the liquidity in USD. For example the pair swth_usdc1 has a ratio of 3.89%.
-The ratio tells how much volume was produced by the available liquidity over this time. The total AMM volume for swth_usdc1 (SUM Daily Volume) was $6.495.149,00, the total available liquidity(SUM Daily Liquidity Value) was $166.806.223,99.
-With other words the ratio is the daily average relative volume against the available liquidity. The higher the ratio the more volume the pair produced.
+The ratio tells how much volume was produced by the available liquidity over this time. The total AMM volume for swth_usdc1 (SUM Daily AMM Volume) was $6.495.149,00, the total available liquidity(SUM Daily AMM Liquidity Value) was $166.806.223,99.
+With other words the ratio is the daily average volume against the available liquidity. The higher the ratio the more volume the pair produced.
 ![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/AMM%20Volume%20_%20Liquidity%20Ratio%20per%20Boost%20Weight.png?raw=true)
 This diagram takes the boost weight into consideration. It simply divides the ratio by the current pool weight. The result says how much volume was produced on daily average per boost weight.
 A high ratio indicates that this pair could be doing way more daily volume if there would be more liquidity in the pool.
 A low number on the other hand indicates that the pool is performing not that well. The reason has to be investigated.
 
 ## Explanation
+The following explanations are in order of their corresponding total volume.
+
+### swth_usdc1
+Most volume comes from swth_usdc1, this pair has the most AMM liquidity with $1,280,000. Taking a look at the Volume/Liquidity ratio tells that his pair has a medium ratio. Looking at the ratio per boost weight shows something important.
+The pool has to much pool weight for the produced volume. Only 0.22% per weight can be expected as volume. As already mentioned in the comments and proofed by data this pool needs adjustment.
+
+The problem with this pair is the 80% USDC / 20% SWTH ratio, the pool has $1.020.474,07 USDC but only a fiction is being used. Looking at swth_busd1 shows that it is viable to do a 50%/50% pool. 
+So chaning the weight a bit down and creating a new poool should improve this problem.
 
 ### eth1_usdc1
-As second most important trading pair a boost of 8% seems quite less. A closer look on the pool shows that this market has a really low liquidity compared to the total volume. This pair has the highest Volume/Liquidity ratio and indicates that we should increase the boost for this pair significantly.
+As second most important trading pair a boost of 8% seems quite less. A closer look on the pool shows that this market has a really low liquidity compared to the total volume. This pair has the highest Volume/Liquidity ratio and indicates that we should increase the boost for this pair.
 
 Boosting this market may lead to a significant increase in daily volume. Especially after EIP-1559 has passed, which causes a burn on each block.
 
 ### swth_eth1
-This market has the second biggest Liquidity pool but is performing pretty bad with an Volume/Liquidity ratio of 3,49 and a total boost of 18 points. As already suggested in the comments below it is worth to consider dropping the whole boost for this market and promote it external.
+This market has the second biggest Liquidity pool but is performing pretty bad with an Volume/Liquidity ratio of 3,23% and a total boost of 18 points which results in 0.18% per weight. It is the lowest ratio of all boosted pairs. As already suggested in the comments below it is worth to consider dropping the whole boost for this market and promote it external.
 
+I talked with the Switcheo Team, they already gave me their commitment to continue providing liquidity from their end. This guarantees a minimum liquidity for the AMM to continue working.
 ### busd1_usdc1
 A perfect example for a successful market. A close look at the Market Maker Share shows that this market is almost 100% made by user orders. Due to this fact and that the AMM does not work very well with a stable coin pair removing the boost should not have any impact on the liquidity.
+The other metric indicates the same, the AMM do not use much liquidity from pool, due to users outbidding the AMM.
 
 ### nneo2_busd1 and nneo2_usdc1
-It is insane how much volume those two markets generated with that low liquidity. nneo2_busd1 has a Volume/Liquidity ratio of 15,02 and nneo2_usdc1 13,39. Taking this into consideration these two pairs may do way more volume if they would feature more Liquidity.
+It is insane how much volume those two markets generated with that low liquidity. nneo2_busd1 has a Volume/Liquidity ratio of 10,04% and nneo2_usdc1 7,78%. A closer look at the ratio per weight shows that those two pairs have the highest values among all pairs. Taking this into consideration these two pairs may do way more volume if they would feature more Liquidity.
+Thanks to high price movement and triangular arbitrage these pairs performed very good.
 
 On the other hand 3 pairs for Neo seems to much right now. Would like to hear more feedback from the community. In my opinion BUSD/NEO is preferred, it is way cheaper to trade across exchanges.
 
@@ -101,7 +117,11 @@ On the other hand 3 pairs for Neo seems to much right now. Would like to hear mo
 bnb1_busd1 performed pretty well. There is still potential upwards. Lowering bnb1_eth1 may shift liquidity to bnb1_busd1.
 
 ### CEL pairs
-The cel pairs performed not that bad, but focusing on one or two pairs could make the deal here.
+The cel pairs performed good too, but focusing on one or two pairs could make the deal here.
+
+### wbtc1_usdc1 VS btcb1_busd1
+If you just compare Volume then wbtc1_usdc1 wins. If you look deeper into the data btcb_busd1 wins because it is cheaper. Both tokens are from BSC and therefor the transfer is super cheap compared to two ETH tokens.
+It is my preferred choice to trade BTC. Increasing btcb1_bsud1 and letting wbtc1_usdc1 untouched could increase the volume.
 
 ### wbtc1_btcb1
 Not much to say, this pair should be no longer boosted.
