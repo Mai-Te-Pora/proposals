@@ -84,6 +84,27 @@ This diagram takes the boost weight into consideration. It simply divides the ra
 A high ratio indicates that this pair could be doing way more daily volume if there would be more liquidity in the pool.
 A low number on the other hand indicates that the pool is performing not that well. The reason has to be investigated.
 
+![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/WeightArb.png?raw=true)
+This table(sorry for the picture of a table) shows the expected ARPs per pool weight and liquidity. Last proposal showed that some users did not understand how the ARB is calculated. This is my explanation:
+
+The liquidity provider rewards decide how much of the block rewards are distributed to the pools with weightage. For week 2021-09-17(56) a total of ~ 7574623,565 SWTH are created and splitted between Stakers, SDF and LPs.
+If in this week the liquidity provider rewards are set to 30% a total of ~2272387,07 SWTH @ $0,01842251 = $41.863,07 will be used to incentive liquidity.
+
+As already shown this amount depends on muliple factors. Total SWTH Staked, Current Inflation Week, Current Reward Curve and SWTH price.
+
+Next to be considers is how the Reward is split among the pools. For this the pool reward weightage defines a relative share. Like last time I prefer a 100 points system.
+This means 1 point equals 1% of the current total reward. In this example 1 point equals $418,63 while 10 points equal $4.186,31. 
+Simple said: the pool weightage defines a relative share of the total rewards distributed to all providers in the pool.
+
+Finally the liquidity in the pools tells how high the current ARB is. A pool with a relative share of 5% receives $2.093,15 in this week. If the pool has $100.000,00 liquidity this brings us to the equation:
+ARB = relative shares($) * 52 /  liquidity = $2.093,15 * 52 / $100.000,00 = 108,84%
+This example shows that the ARB depends an various factors so far. But thats not all.
+
+Last but not least the own provided share with the so called boost factor defines how much of the relative share goes into your pocket.
+The equation for this is quite simple: Your rewards = your share($) / total liquidity * Total Rewards. The boost just (virtually) increases your share because you locked your liquidity.
+BUT if ALL users commit their liquidity at the same time and duration no one profits from the boost, because all users are being boosted by the same factor.
+Because of this fact I can not take the personal boost in consideration, the personal ARB can be higher or lower depending on other users and their total share and commitment time.
+
 ## Explanation
 The following explanations are in order of their corresponding total volume.
 
