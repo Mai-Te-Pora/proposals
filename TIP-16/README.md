@@ -60,20 +60,20 @@ Low ratios may say that this market would have done almost the same volume with 
 |        swth_eth1 |  $2.952.430,43 |  7,84% | 18    | $846,238   | 3,23%            |         0 | -100,00% |
 |      busd1_usdc1 |  $2.760.363,42 |  7,33% | 3     | $554,287   | 1,12%            |         0 | -100,00% |
 |      nneo2_busd1 |  $2.409.928,00 |  6,40% | 4     | $160,433   | 10,04%           |        11 |  175,00% |
-|       bnb1_busd1 |  $2.338.213,53 |  6,21% | 6     | $250,985   | 10,45%           |         8 |   33,33% |
-|      wbtc1_usdc1 |  $1.834.235,20 |  4,87% | 7     | $527,708   | 3,84%            |         6 |  -14,29% |
+|       bnb1_busd1 |  $2.338.213,53 |  6,21% | 6     | $250,985   | 10,45%           |        10 |   66,67% |
+|      wbtc1_usdc1 |  $1.834.235,20 |  4,87% | 7     | $527,708   | 3,84%            |         7 |    0,00% |
 |       nneo2_eth1 |  $1.450.589,42 |  3,85% | 4     | $259,523   | 3,44%            |         4 |    0,00% |
 |       eth1_wbtc1 |  $1.139.439,94 |  3,03% | 4     | $629,206   | 2,13%            |         4 |    0,00% |
-|      nneo2_usdc1 |    $968.479,93 |  2,57% | 2     | $72,303    | 7,78%            |         5 |  150,00% |
+|      nneo2_usdc1 |    $968.479,93 |  2,57% | 2     | $72,303    | 7,78%            |         0 | -100,00% |
 |        bnb1_eth1 |    $934.906,48 |  2,48% | 6     | $356,704   | 2,95%            |         5 |  -16,67% |
-|      btcb1_busd1 |    $877.366,82 |  2,33% | 4     | $350,795   | 3,79%            |         4 |    0,00% |
+|      btcb1_busd1 |    $877.366,82 |  2,33% | 4     | $350,795   | 3,79%            |         6 |   50,00% |
 |       cel1_busd1 |    $827.083,73 |  2,20% | 3     | $155,276   | 3,49%            |         4 |   33,33% |
 |       cel1_usdc1 |    $552.667,65 |  1,47% | 2     | $127,110   | 3,84%            |         0 | -100,00% |
 |          cel_eth |    $549.008,77 |  1,46% | 2     | $114,556   | 4,39%            |         3 |   50,00% |
 |      wbtc1_btcb1 |    $242.671,12 |  0,64% | 1     | $285,182   | 0,29%            |         0 | -100,00% |
 |       nex1_usdc1 |     $15.295,22 |  0,04% | 0     | $1,372     |                  |         0 |    0,00% |
-| NEW Partnerships | -              | -      | -     | -          |                  | 5         | -        |
-|                  | $37.638.287,28 |        | 100   |            |                  | 100       |          |
+| NEW Partnerships | -              | -      | -     | -          |                  |         5 | -        |
+|                  | $37.638.287,28 |        | 100   |            |                  |       100 |          |
 
 ![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/AMM%20Volume%20_%20Liquidity%20Ratio.png?raw=true)
 This diagram shows the ratio between the effective AMM volume divided by the liquidity in USD. For example the pair swth_usdc1 has a ratio of 3.89%.
@@ -88,9 +88,9 @@ A low number on the other hand indicates that the pool is performing not that we
 This table(sorry for the picture of a table) shows the expected ARPs per pool weight and liquidity. Last proposal showed that some users did not understand how the ARB is calculated. This is my explanation:
 
 The liquidity provider rewards decide how much of the block rewards are distributed to the pools with weightage. For week 2021-09-17(56) a total of ~ 7574623,565 SWTH are created and splitted between Stakers, SDF and LPs.
-If in this week the liquidity provider rewards are set to 30% a total of ~2272387,07 SWTH @ $0,01842251 = $41.863,07 will be used to incentive liquidity.
+If in this week the liquidity provider rewards are set to 30% a total of ~2272387,07 SWTH @ $0,01842251 = $41.863,07 + Transactions Fees + Trading Fees will be used to incentive liquidity.
 
-As already shown this amount depends on muliple factors. Total SWTH Staked, Current Inflation Week, Current Reward Curve and SWTH price.
+As already shown this amount depends on muliple factors. Total SWTH Staked, Current Inflation Week, Current Reward Curve, SWTH price, Transaction and Trading fees as well as their exchange rates.
 
 Next to be considers is how the Reward is split among the pools. For this the pool reward weightage defines a relative share. Like last time I prefer a 100 points system.
 This means 1 point equals 1% of the current total reward. In this example 1 point equals $418,63 while 10 points equal $4.186,31. 
@@ -102,7 +102,7 @@ This example shows that the ARB depends an various factors so far. But thats not
 
 Last but not least the own provided share with the so called boost factor defines how much of the relative share goes into your pocket.
 The equation for this is quite simple: Your rewards = your share($) / total liquidity * Total Rewards. The boost just (virtually) increases your share because you locked your liquidity.
-BUT if ALL users commit their liquidity at the same time and duration no one profits from the boost, because all users are being boosted by the same factor.
+BUT if ALL users commit their liquidity at the same time and duration no one profits from the boost, because all users are being boosted by the same factor, resulting in the total liquidity increasing at the same ratio.
 Because of this fact I can not take the personal boost in consideration, the personal ARB can be higher or lower depending on other users and their total share and commitment time.
 
 ## Explanation
@@ -223,3 +223,9 @@ Volume Share: Shows the relative total daily volume over the period.
 ![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20wbtc1_btcb1.png?raw=true)
 ![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Market%20Maker%20Shares%20wbtc1_btcb1.png?raw=true)
 ![](https://github.com/Mai-Te-Pora/proposals/blob/main/TIP-16/diagrams/Volume%20Share%20wbtc1_btcb1.png?raw=true)
+
+* Edit1: Removed boosts + added Volume/Liquidity ratio
+* Edit2: Re-added boost, updated explanations and added more content
+* Edit3: Added clarification about the duration of the proposed pool weight adjustments
+* Edit4: spelling + small clarifications
+* Edit5: Added Liquidity information over time + adjusted pool weights
