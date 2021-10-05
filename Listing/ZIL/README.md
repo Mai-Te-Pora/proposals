@@ -1,6 +1,13 @@
 # Creation of ZIL related markets, pools and adjusting of the pool weight
 
-## New markets and pools
+Responsible for this proposal is Lynn Choy(Switcheo). She is assisted and advised by Coco and Devel(Validators).
+
+Step 1 + 2 - Market Creation and Pool Linking will be proposed on chain right away since no one is effected in a negative way.
+
+Step 3 - Pool Weight Adjustments requires further discussion and will be proposed in few days.
+
+## New markets and pools (Step 1 + 2)
+
 This proposal seeks to create the following markets:
 
 - ZIL/BUSD
@@ -25,12 +32,35 @@ XSGD is a stablecoin backed by the Singapore dollar, and exists in both ERC-20 a
 Marketcap: $58M
 
 
-## Pool Weight
+## Pool Weight (Step 3)
 
-For the ZIL/BUSD a pool weight of 5 points is planed in the beginning and will be adjusted in the next bigger round of pool weight adjustments like  (TIP-16)[]
+For the ZIL/BUSD a pool weight of 5 points is planed in the beginning and will be adjusted in the next bigger round of pool weight adjustments like [TIP-17](https://forum.switcheo.foundation/topic/90/tip-16-extension-of-lp-rewards-updating-of-pool-weights)
 
 The current pool system uses 95 points + optional 5 points for partnership promotions. Right now Locklet is granted this partnership promotion which will end in few days. Watch out for another forum post.
 
-I want to continue the 100 point system, but due to the fact that the last change is less than one month old I suggest to increase the total number of pool weights to 100 + 5 partnership promotion.
-This would mean that all pools will be reduced by the same relative ratio: 4.76 %. This means if a pool has an ARP of 50% right now the new ARP would be 50% * (1-4.76%) = 47,61%.
+We want to continue the 100 point system, but due to the fact that the last change is less than one month old we suggest to increase the total number of pool weights to 105 + 5 partnership promotion.
+This would mean that all pools will be reduced by the same relative ratio: ~9,09 %. For example if a pool has an ARP of 50% right now the new ARP would be 50% * (1-9.09%) = 45.45%.
 
+| Pool      | Weight | APR     | New ARP*  |
+|-----------|--------|---------|-----------|
+| LKT/USDC  | 5      | 72.240% | 65.672%   |
+| BUSD/NEO  | 11     | 64.456% | 58.596%   |
+| BUSD/SWTH | 8      | 54.523  | 49.566%   |
+| BTCB/BUSD | 6      | 46.269% | 42.063%   |
+| BUSD/BNB  | 10     | 43.362% | 39.420%   |
+| USDC/SWTH | 16     | 42.742% | 38.856%   |
+| CEL/ETH   | 3      | 36.250% | 32.954%   |
+| USDC/ETH  | 17     | 33.658% | 30.598%   |
+| BNB/ETH   | 5      | 32.875% | 29.886%   |
+| USDC/WBTC | 7      | 31.265% | 28.423%   |
+| BUSD/CEL  | 4      | 29.814% | 27.104%   |
+| NEO/ETH   | 4      | 28.884% | 26.258%   |
+| WBTC/ETH  | 4      | 7.879%  | 7.163%    |
+| ZIL/BUSD  | 5      | -       | 78.970%** |
+| ZWAP/BUSD | 3      | -       | 47.380%** |
+| gZIL/BUSD | 2      | -       | 31.590%** |
+| XSGD/BUSD | 1      | -       | 15.790%** |
+
+ .* Assuming the SWTH price and the total liquidity do not change.
+
+** Based on the assumption of $100k liquidity and a SWTH price of $0.015.
